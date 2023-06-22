@@ -1,0 +1,55 @@
+Card Attributes are case insensitive and may be written with spaces or underscores.
+
+added timestamp
+art crop
+artist
+board
+border color
+card
+card id
+card name
+cardID
+cmc
+collector number
+color
+color category
+color identity
+colors
+converted mana cost
+cube count
+digital
+elo
+finish
+finishes
+full art
+full name
+image normal
+image small
+index
+is token
+is unlimited
+language
+layout
+mana value
+mtgo id
+mv
+name
+name lower
+oracle id
+oracle text
+pick count
+popularity
+power
+promo
+rarity
+released at
+reprint
+scryfall uri
+set
+set name
+status
+tags
+tcgplayer id
+toughness
+type
+type line
