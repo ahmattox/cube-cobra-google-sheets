@@ -1,11 +1,18 @@
 /**
  * Cube Cobra + Google Sheets integration.
  *
- * Made by Anthony Mattox. Read more on Github.
+ * Made by Anthony Mattox. Read more on Github. Issues or suggestions? Find me
+ * on Twitter @ahmattox.
  *
  * https://github.com/ahmattox/cube-cobra-google-sheets
  *
- * Last updated 2023-06-22
+ * Find more resources for Magic, and especially Cube, on Lucky Paper
+ *
+ * https://luckypaper.co/resources/
+ *
+ * Last updated 2023-07-04 (probably)
+ *
+ * @OnlyCurrentDoc
  */
 
 // - Sheet Functions
@@ -207,6 +214,7 @@ const cardTypeOrder = [
   'Artifact',
   'Enchantment',
   'Planeswalker',
+  'Battle',
   'Land',
 ]
 
