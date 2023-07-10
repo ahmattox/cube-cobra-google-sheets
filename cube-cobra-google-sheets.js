@@ -10,7 +10,7 @@
  *
  * https://luckypaper.co/resources/
  *
- * Last updated 2023-07-04 (probably)
+ * Last updated 2023-07-10 (probably)
  *
  * @OnlyCurrentDoc
  */
@@ -219,6 +219,9 @@ const cardTypeOrder = [
 ]
 
 function cardTypeIndex(cardType) {
+  if (cardType == null) {
+    return 10
+  }
   return cardTypeOrder.findIndex((type) => cardType.includes(type))
 }
 
