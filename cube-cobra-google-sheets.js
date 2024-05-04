@@ -124,6 +124,9 @@ function normalizeCardFieldNames(names) {
 // Formatters for non scalar fields. E.g. joins color arrays and picks out
 // nested values.
 const cardFieldFormatters = {
+  type_line: (card) => {
+    return card.details.type_line ?? card.details.type
+  },
   color_identity: (card) => {
     return card.details.color_identity.join('')
   },
